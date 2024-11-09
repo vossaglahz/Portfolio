@@ -16,3 +16,17 @@ body {
   max-width: 1200px;
   min-height: 100vh;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(85, 85, 85);
+}
+
+a,
+.btn {
+  transition: all 300ms ease;
+}
+
