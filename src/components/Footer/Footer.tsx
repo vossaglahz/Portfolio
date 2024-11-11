@@ -13,7 +13,7 @@ export const Footer = () => {
             </ul>
           </div>
         </nav>
-        <p>Сайт-визитка "Жалгасов Мерей React/Go разработчик"</p>
+        <p>Сайт-визитка "Жалгасов Мерей React/Node.js/Golang разработчик"</p>
       </footer>
     )
 }

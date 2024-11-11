@@ -29,7 +29,7 @@ export const Profile = () => {
             <div className="section__text">
                 <p className="section__text__p1">Здравствуйте, меня зовут</p>
                 <h1 className="title">Жалгасов Мерей</h1>
-                <p className="section__text__p2">React/Go/Node.js Fullstack разработчик</p>
+                <p className="section__text__p2">React/Node.js/Golang Fullstack разработчик</p>
                 <div className="btn-container">
                     <button className="btn btn-color-2" onClick={openResume}>
                         Резюме
