@@ -8,7 +8,7 @@ import { Footer } from "./Footer/Footer";
 
 export const Main = () => {
     return (
-        <div>
+        <>
             <Header />
             <Profile />
             <About />
@@ -16,6 +16,6 @@ export const Main = () => {
             <Projects />
             <Contact />
             <Footer />
-        </div>
+        </>
     )
 };

@@ -15,7 +15,7 @@ export const Header = () => {
                 <div>
                     <ul className="nav-links">
                         <li><a href="#about">Обо мне</a></li>
-                        <li><a href="#experience">Опыт</a></li>
+                        <li><a href="#experience">Навыки</a></li>
                         <li><a href="#projects">Проекты</a></li>
                         <li><a href="#contact">Контакты</a></li>
                     </ul>
@@ -34,7 +34,7 @@ export const Header = () => {
                     </div>
                     <div className={`menu-links ${menuOpen ? "open" : ""}`}>
                         <li><a href="#about" onClick={toggleMenu}>Обо мне</a></li>
-                        <li><a href="#experience" onClick={toggleMenu}>Опыт</a></li>
+                        <li><a href="#experience" onClick={toggleMenu}>Навыки</a></li>
                         <li><a href="#projects" onClick={toggleMenu}>Проекты</a></li>
                         <li><a href="#contact" onClick={toggleMenu}>Контакты</a></li>
                     </div>

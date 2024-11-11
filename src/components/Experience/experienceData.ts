@@ -49,23 +49,23 @@ export const experienceFrontend = [
 export const experienceBackend = [
     {
         id: 1,
-        name: "Golang",
-        image: "https://skillicons.dev/icons?i=golang"
-    },
-    {
-        id: 2,
         name: "Node.js",
         image: "https://skillicons.dev/icons?i=nodejs"
     },
     {
-        id: 3,
+        id: 2,
         name: "Express.js",
         image: "https://skillicons.dev/icons?i=expressjs"
     },
     {
-        id: 4,
+        id: 3,
         name: "Nest.js",
         image: "https://skillicons.dev/icons?i=nest"
+    },
+    {
+        id: 4,
+        name: "Jest",
+        image: "https://skillicons.dev/icons?i=jest"
     },
     {
         id: 5,

@@ -1,31 +1,31 @@
 #projects {
-    position: relative;
-  }
-  
-  .color-container {
-    border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
-  }
-  
-  .project-img {
-    border: 1px solid rgb(163, 163, 163);
-    border-radius: 2rem;
-    width: 90%;
-    height: 90%;
-  }
-  
-  .project-title {
-    margin: 1rem;
-    color: black;
-  }
+  position: relative;
+}
 
-  .project-description {
-    margin: 1rem;
-    color: rgb(163, 163, 163);
-    font-weight: 300;
-  }
-  
-  .project-btn {
-    color: black;
-    border-color: rgb(163, 163, 163);
-  }
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+.project-img {
+  border: 1px solid rgb(163, 163, 163);
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-description {
+  margin: 1rem;
+  color: rgb(163, 163, 163);
+  font-weight: 300;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}

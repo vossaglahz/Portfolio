@@ -26,7 +26,7 @@ export const Projects = () => {
                         <div className="article-container">
                         <img
                             src={p.image}
-                            alt="Project 1"
+                            alt="Project"
                             className="project-img"
                         />
                         </div>
