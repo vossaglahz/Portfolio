@@ -1,4 +1,5 @@
 import './Experience.scss';
+import { experienceBackend, experienceFrontend } from './experience';
 
 export const Experience = () => {
 
@@ -15,121 +16,35 @@ export const Experience = () => {
                 <div className="details-container">
                     <h2 className="experience-sub-title">Frontend</h2>
                     <div className="article-container">
-                    <article>
-                        <img
-                        src="public/checkmark.png"
-                        alt="Experience icon"
-                        className="icon"
-                        />
-                        <div>
-                        <h3>HTML</h3>
-                        <p>Experienced</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                        src="public/checkmark.png"
-                        alt="Experience icon"
-                        className="icon"
-                        />
-                        <div>
-                        <h3>CSS</h3>
-                        <p>Experienced</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                        src="public/checkmark.png"
-                        alt="Experience icon"
-                        className="icon"
-                        />
-                        <div>
-                        <h3>SASS</h3>
-                        <p>Intermediate</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                        src="public/checkmark.png"
-                        alt="Experience icon"
-                        className="icon"
-                        />
-                        <div>
-                        <h3>JavaScript</h3>
-                        <p>Basic</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                        src="public/checkmark.png"
-                        alt="Experience icon"
-                        className="icon"
-                        />
-                        <div>
-                        <h3>TypeScript</h3>
-                        <p>Basic</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                        src="public/checkmark.png"
-                        alt="Experience icon"
-                        className="icon"
-                        />
-                        <div>
-                        <h3>Material UI</h3>
-                        <p>Intermediate</p>
-                        </div>
-                    </article>
+                    {experienceFrontend.map((e) => (
+                        <article key={e.id}>
+                            <img
+                            src={e.image}
+                            alt="Experience icon"
+                            className="icon"
+                            />
+                            <div>
+                            <h3>{e.name}</h3>
+                            </div>
+                        </article>
+                    ))}
                     </div>
                 </div>
                 <div className="details-container">
                     <h2 className="experience-sub-title">Backend</h2>
                     <div className="article-container">
-                    <article>
-                        <img
-                        src="public/checkmark.png"
-                        alt="Experience icon"
-                        className="icon"
-                        />
-                        <div>
-                        <h3>PostgreSQL</h3>
-                        <p>Basic</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                        src="public/checkmark.png"
-                        alt="Experience icon"
-                        className="icon"
-                        />
-                        <div>
-                        <h3>Node JS</h3>
-                        <p>Intermediate</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                        src="public/checkmark.png"
-                        alt="Experience icon"
-                        className="icon"
-                        />
-                        <div>
-                        <h3>Express JS</h3>
-                        <p>Intermediate</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img
-                        src="public/checkmark.png"
-                        alt="Experience icon"
-                        className="icon"
-                        />
-                        <div>
-                        <h3>Git</h3>
-                        <p>Intermediate</p>
-                        </div>
-                    </article>
+                    {experienceBackend.map((e) => (
+                        <article key={e.id}>
+                            <img
+                            src={e.image}
+                            alt="Experience icon"
+                            className="icon"
+                            />
+                            <div>
+                            <h3>{e.name}</h3>
+                            </div>
+                        </article>
+                    ))}
                     </div>
                 </div>
                 </div>

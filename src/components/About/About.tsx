@@ -13,7 +13,7 @@ export const About = () => {
             <div className="section-container">
                 <div className="section__pic-container">
                 <img
-                    src="public/about-pic.png"
+                    src="public/about-pic.jpg"
                     alt="Profile picture"
                     className="about-pic"
                 />
