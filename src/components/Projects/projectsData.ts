@@ -13,7 +13,7 @@ export const projectsList = [
         description: "React",
         image: "/project-2.png",
         github: "https://github.com/vossaglahz/PizzaDelivery",
-        deploy: "https://pizza-delivery-2wf4pjulj-mereys-projects-bc7859de.vercel.app/"
+        deploy: "https://pizza-delivery-mereys-projects-bc7859de.vercel.app/"
     },
     {
         id: 3,
