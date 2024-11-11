@@ -24,7 +24,7 @@ export const Profile = () => {
     return (
         <section id="profile">
             <div className="section__pic-container">
-                <img src="/profile-pic.jpg" alt="Merey Zhalgassov profile picture" />
+                <img src="/profile-pics.jpg" alt="Merey Zhalgassov profile picture" />
             </div>
             <div className="section__text">
                 <p className="section__text__p1">Здравствуйте, меня зовут</p>
