@@ -8,8 +8,8 @@ export const About = () => {
 
     return (
         <section id="about">
-            <p className="section__text__p1">Get To Know More</p>
-            <h1 className="title">About Me</h1>
+            <p className="section__text__p1">Узнайте больше</p>
+            <h1 className="title">Обо мне</h1>
             <div className="section-container">
                 <div className="section__pic-container">
                 <img
@@ -26,8 +26,8 @@ export const About = () => {
                         alt="Experience icon"
                         className="icon"
                     />
-                    <h3>Experience</h3>
-                    <p>2+ years <br />Frontend Development</p>
+                    <h3>Школа программирования</h3>
+                    <p>Attractor 15 месяцев<br />React/Node.js Fullstack разработчик</p>
                     </div>
                     <div className="details-container">
                     <img
@@ -35,18 +35,24 @@ export const About = () => {
                         alt="Education icon"
                         className="icon"
                     />
-                    <h3>Education</h3>
-                    <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+                    <h3>Образование</h3>
+                    <p>Карагандинский Государственный Технический Университет<br />Архитектура</p>
                     </div>
                 </div>
                 <div className="text-container">
                     <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-                    reprehenderit et laborum, rem, dolore eum quod voluptate
-                    exercitationem nobis, nihil esse debitis maxime facere minus sint
-                    delectus velit in eos quo officiis explicabo deleniti dignissimos.
-                    Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-                    reiciendis ea magnam? Nulla, impedit fuga!
+                    Работал над проектом «Наше Право» - фриланс биржа для юристов. 
+                    Активно участвовал в разработке системы 
+                    аутентификации на основе JWT, создавая ее как на стороне backend, 
+                    так и на frontend. С нуля разработал админ-панель на frontend, 
+                    а также реализовал интерфейс для отображения и сортировки списка сделок. 
+                    В процессе работы активно участвовал в обсуждениях, вносил предложения 
+                    и идеи, что помогло проекту развиваться комплексно и эффективно. 
+                    Быстро адаптируюсь к новым технологиям (google-master).
+                    Стремлюсь к четкому и ясному выражению своих мыслей, 
+                    идей и предложений. Всегда нацелен на продуктивное сотрудничество 
+                    с другими отделами, выстраивая взаимовыгодные связи. Проявляю инициативу, 
+                    активно принимая участие в рабочих и нерабочих обсуждениях.
                     </p>
                 </div>
                 </div>

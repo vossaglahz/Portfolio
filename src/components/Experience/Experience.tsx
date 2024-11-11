@@ -8,12 +8,12 @@ export const Experience = () => {
 
     return (
         <section id="experience">
-            <p className="section__text__p1">Explore My</p>
-            <h1 className="title">Experience</h1>
+            <p className="section__text__p1">Изучите мои</p>
+            <h1 className="title">Навыки</h1>
             <div className="experience-details-container">
                 <div className="about-containers">
                 <div className="details-container">
-                    <h2 className="experience-sub-title">Frontend Development</h2>
+                    <h2 className="experience-sub-title">Frontend</h2>
                     <div className="article-container">
                     <article>
                         <img
@@ -84,7 +84,7 @@ export const Experience = () => {
                     </div>
                 </div>
                 <div className="details-container">
-                    <h2 className="experience-sub-title">Frontend Development</h2>
+                    <h2 className="experience-sub-title">Backend</h2>
                     <div className="article-container">
                     <article>
                         <img

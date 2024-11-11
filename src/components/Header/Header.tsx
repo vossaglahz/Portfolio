@@ -11,18 +11,18 @@ export const Header = () => {
     return (
         <>
             <nav id="desktop-nav">
-                <div className="logo">Merey Zhalgassov</div>
+                <div className="logo">Жалгасов Мерей</div>
                 <div>
                     <ul className="nav-links">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">Обо мне</a></li>
+                        <li><a href="#experience">Опыт</a></li>
+                        <li><a href="#projects">Проекты</a></li>
+                        <li><a href="#contact">Контакты</a></li>
                     </ul>
                 </div>
             </nav>
             <nav id="hamburger-nav">
-                <div className="logo">John Doe</div>
+                <div className="logo">Жалгасов Мерей</div>
                 <div className="hamburger-menu">
                     <div 
                         className={`hamburger-icon ${menuOpen ? "open" : ""}`} 
@@ -33,10 +33,10 @@ export const Header = () => {
                         <span></span>
                     </div>
                     <div className={`menu-links ${menuOpen ? "open" : ""}`}>
-                        <li><a href="#about" onClick={toggleMenu}>About</a></li>
-                        <li><a href="#experience" onClick={toggleMenu}>Experience</a></li>
-                        <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
-                        <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
+                        <li><a href="#about" onClick={toggleMenu}>Обо мне</a></li>
+                        <li><a href="#experience" onClick={toggleMenu}>Опыт</a></li>
+                        <li><a href="#projects" onClick={toggleMenu}>Проекты</a></li>
+                        <li><a href="#contact" onClick={toggleMenu}>Контакты</a></li>
                     </div>
                 </div>
             </nav>

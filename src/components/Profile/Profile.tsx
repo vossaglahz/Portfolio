@@ -23,15 +23,15 @@ export const Profile = () => {
                 <img src="public/profile-pic.png" alt="John Doe profile picture" />
             </div>
             <div className="section__text">
-                <p className="section__text__p1">Hello, I'm</p>
-                <h1 className="title">Merey Zhalgassov</h1>
-                <p className="section__text__p2">Frontend Developer</p>
+                <p className="section__text__p1">Здравствуйте, меня зовут</p>
+                <h1 className="title">Жалгасов Мерей</h1>
+                <p className="section__text__p2">React/Go разработчик</p>
                 <div className="btn-container">
                     <button className="btn btn-color-2" onClick={openResume}>
-                        Download CV
+                        Резюме
                     </button>
                     <button className="btn btn-color-1" onClick={navigateToContact}>
-                        Contact Info
+                        Контакты
                     </button>
                 </div>
                 <div id="socials-container">
