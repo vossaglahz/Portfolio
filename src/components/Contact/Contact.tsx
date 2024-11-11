@@ -9,7 +9,7 @@ export const Contact = () => {
             <div className="contact-info-upper-container">
                 <div className="contact-info-container">
                 <img
-                    src="public/email.png"
+                    src="/email.png"
                     alt="Email icon"
                     className="icon contact-icon email-icon"
                 />
@@ -17,7 +17,7 @@ export const Contact = () => {
                 </div>
                 <div className="contact-info-container">
                 <img
-                    src="public/linkedin.png"
+                    src="/linkedin.png"
                     alt="LinkedIn icon"
                     className="icon contact-icon"
                 />

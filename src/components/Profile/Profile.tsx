@@ -40,19 +40,19 @@ export const Profile = () => {
                 </div>
                 <div id="socials-container">
                     <img
-                        src="public/linkedin.png"
+                        src="/linkedin.png"
                         alt="My LinkedIn profile"
                         className="icon"
                         onClick={openLinkedIn}
                     />
                     <img
-                        src="public/github.png"
+                        src="/github.png"
                         alt="My Github profile"
                         className="icon"
                         onClick={openGitHub}
                     />
                     <img
-                        src="public/telegram.png"
+                        src="/telegram.png"
                         alt="My Telegram profile"
                         className="icon"
                         onClick={openTelegram}

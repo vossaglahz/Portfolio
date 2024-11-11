@@ -13,7 +13,7 @@ export const About = () => {
             <div className="section-container">
                 <div className="section__pic-container">
                 <img
-                    src="public/about-pic.jpg"
+                    src="/about-pic.jpg"
                     alt="Profile picture"
                     className="about-pic"
                 />
@@ -22,7 +22,7 @@ export const About = () => {
                 <div className="about-containers">
                     <div className="details-container">
                     <img
-                        src="public/experience.png"
+                        src="/experience.png"
                         alt="Experience icon"
                         className="icon"
                     />
@@ -31,7 +31,7 @@ export const About = () => {
                     </div>
                     <div className="details-container">
                     <img
-                        src="public/education.png"
+                        src="/education.png"
                         alt="Education icon"
                         className="icon"
                     />
@@ -58,7 +58,7 @@ export const About = () => {
                 </div>
             </div>
             <img
-                src="public/arrow.png"
+                src="/arrow.png"
                 alt="Arrow icon"
                 className="icon arrow"
                 onClick={navigateToExperience}

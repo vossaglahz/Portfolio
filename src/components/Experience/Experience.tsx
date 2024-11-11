@@ -50,7 +50,7 @@ export const Experience = () => {
                 </div>
             </div>
             <img
-                src="public/arrow.png"
+                src="/arrow.png"
                 alt="Arrow icon"
                 className="icon arrow"
                 onClick={navigateToProjects}

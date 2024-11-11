@@ -51,7 +51,7 @@ export const Projects = () => {
                 </div>
             </div>
             <img
-                src="public/arrow.png"
+                src="/arrow.png"
                 alt="Arrow icon"
                 className="icon arrow"
                 onClick={navigateToContact}
