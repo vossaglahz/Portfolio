@@ -8,6 +8,7 @@
   }
   
   .project-img {
+    border: 1px solid rgb(163, 163, 163);
     border-radius: 2rem;
     width: 90%;
     height: 90%;
@@ -16,6 +17,12 @@
   .project-title {
     margin: 1rem;
     color: black;
+  }
+
+  .project-description {
+    margin: 1rem;
+    color: rgb(163, 163, 163);
+    font-weight: 300;
   }
   
   .project-btn {

@@ -1,5 +1,5 @@
 import './Experience.scss';
-import { experienceBackend, experienceFrontend } from './experience';
+import { experienceBackend, experienceFrontend } from './experienceData';
 
 export const Experience = () => {
 

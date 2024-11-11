@@ -17,6 +17,10 @@ export const Profile = () => {
         window.location.href = 'https://github.com/vossaglahz';
     };
 
+    const openTelegram = () => {
+        window.location.href = 'https://t.me/mereyzhalgassov';
+    };
+
     return (
         <section id="profile">
             <div className="section__pic-container">
@@ -46,6 +50,12 @@ export const Profile = () => {
                         alt="My Github profile"
                         className="icon"
                         onClick={openGitHub}
+                    />
+                    <img
+                        src="public/telegram.png"
+                        alt="My Telegram profile"
+                        className="icon"
+                        onClick={openTelegram}
                     />
                 </div>
             </div>
