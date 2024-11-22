@@ -49,43 +49,43 @@ export const experienceFrontend = [
 export const experienceBackend = [
     {
         id: 1,
+        name: "Golang",
+        image: "https://skillicons.dev/icons?i=golang"
+    },
+    {
+        id: 2,
         name: "Node.js",
         image: "https://skillicons.dev/icons?i=nodejs"
     },
     {
-        id: 2,
+        id: 3,
         name: "Express.js",
         image: "https://skillicons.dev/icons?i=expressjs"
     },
     {
-        id: 3,
+        id: 4,
         name: "Nest.js",
         image: "https://skillicons.dev/icons?i=nest"
     },
     {
-        id: 4,
+        id: 5,
         name: "Jest",
         image: "https://skillicons.dev/icons?i=jest"
     },
     {
-        id: 5,
+        id: 6,
         name: "Socket.io",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/1200px-Socket-io.svg.png"
     },
     {
-        id: 6,
+        id: 7,
         name: "SQL",
         image: "https://skillicons.dev/icons?i=postgres"
     },
     {
-        id: 7,
+        id: 8,
         name: "Docker",
         image: "https://skillicons.dev/icons?i=docker"
-    },
-    {
-        id: 8,
-        name: "Kafka",
-        image: "https://skillicons.dev/icons?i=kafka"
     },
     {
         id: 9,
