@@ -2,7 +2,7 @@ import './Profile.scss';
 
 export const Profile = () => {
     const openResume = () => {
-        window.open('/CVMereyZhalgassovFullStack.pdf', '_blank');
+        window.open('/CV.pdf', '_blank');
     };
 
     const navigateToContact = () => {
