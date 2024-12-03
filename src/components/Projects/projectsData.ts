@@ -5,7 +5,7 @@ export const projectsList = [
         description: "React/Redux/Node.js",
         image: "/project-1.png",
         github: "https://github.com/vossaglahz/NashePravo",
-        deploy: "http://209.38.211.14:8080/"
+        deploy: "https://adalzan.kz/"
     },
     {
         id: 2,
