@@ -1,7 +1,7 @@
 export const projectsList = [
     {
         id: 1,
-        name: "Наше Право",
+        name: "Adal Zań",
         description: "React/Redux/Node.js",
         image: "/project-1.png",
         github: "https://github.com/vossaglahz/NashePravo",
